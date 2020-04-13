@@ -1,0 +1,40 @@
+// Colores
+$cl_blue : #5F52E0 !important;
+$cl_blue_1 : #03026D !important;
+$cl_blue_2 : #A8A4C5 !important;
+$cl_black : #333 !important;
+$cl_white : #fff !important;
+$cl_grey_00 : #F7F7F7 !important;
+
+// shadow
+$shadow_blue : 0px 9px 18px rgba(95,82,224, .12);
+$shadow_black : 0px 10px 20px rgba(0, 0, 0, .05);
+
+// Transition
+$transition_default : all .3s ease !important;
+
+// Font
+$font_poppins : 'Poppins', sans-serif !important;
+
+.wrapper_fluid, .wrapper {
+    display: block;
+    box-sizing: border-box !important;
+}
+
+.flex, .flex_between, .flex_center { display: flex !important; }
+
+.flex_between { justify-content: space-between !important; }
+
+.flex_center { align-items: center !important; }
+
+.wrapper_fluid {
+    width: 100%;
+    overflow: hidden;
+}
+
+.wrapper {
+    max-width: 85%;
+    width: 95%;
+    margin: 0 auto;
+}
+
